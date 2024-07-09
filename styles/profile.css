@@ -50,13 +50,17 @@
 
 .banner{
     display: flex;
+    margin-right: 100px;
     /* /* flex-direction: row; */
     justify-content: space-between;
     align-items: center;
 }
-/* .dev1{
+
+.div1{
+    width: 130px;
     position: relative;
-} */
+    top: 128px;
+}
 
 #developer{
 transform: rotate(-90.00deg);
@@ -65,12 +69,7 @@ font-family: "Open Sans";
 font-size: 100px;
 font-weight: 700;
 line-height: 140px;
-/* letter-spacing: 60%; */
-/* text-align: left; */
-/* border: 2px red solid; */
-position: absolute;
-left: -200px;
-top: 250px;
+
 }
 
 .banner .description{
@@ -78,11 +77,21 @@ top: 250px;
     font-size: 20px;
     font-family: "Open Sans";
     width: 500px;
-    border: 2px red solid;
+    /* border: 2px red solid; */
+}
+
+.banner .img{
+    width: 400px;
+
 }
 
 .banner img{
     width: 400px;
-    border: 2px red solid;
+    /* border: 2px red solid; */
+
 }
+
+
+
+
 
