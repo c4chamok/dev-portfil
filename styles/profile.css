@@ -54,6 +54,9 @@
     justify-content: space-between;
     align-items: center;
 }
+/* .dev1{
+    position: relative;
+} */
 
 #developer{
 transform: rotate(-90.00deg);
@@ -61,13 +64,20 @@ color: rgba(24, 24, 24, 0.15);
 font-family: "Open Sans";
 font-size: 100px;
 font-weight: 700;
-line-height: 120px;
-letter-spacing: 33%;
-text-align: left;
-border: 2px red solid;
+line-height: 140px;
+/* letter-spacing: 60%; */
+/* text-align: left; */
+/* border: 2px red solid; */
+position: absolute;
+left: -200px;
+top: 250px;
 }
 
 .banner .description{
+    color: black;
+    font-size: 20px;
+    font-family: "Open Sans";
+    width: 500px;
     border: 2px red solid;
 }
 
